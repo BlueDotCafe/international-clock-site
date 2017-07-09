@@ -1,0 +1,31 @@
+.one {
+  background-color: #49484d;
+  /*dark purple grey*/
+  color: #fdfdfd;
+  font-size: 35pt;
+  text-align: center;
+  height: 200px;
+}
+
+h5 {
+  /*lightest purple grey*/
+  color: #b8b8b8;
+  /*dark purple grey*/
+  color: #49484d;
+/*salmon*/
+  color: #be8d7e;
+  /*white*/
+  color: #fdfdfd;
+
+}
+
+.col-md-4 {
+  color: #fdfdfd;
+  background-color: #be8d7e;
+  text-align: center;
+  height: 150px;
+}
+
+h3 {
+  margin-top: 55px;
+}
