@@ -47,7 +47,7 @@
 
 
 $(document).ready(function() {
-   $("#pink").click(function(event) {
+   $("h3").click(function(event) {
      event.preventDefault();
     var time = calculateTime("Tokyo, Japan");
     alert(time);
