@@ -1,4 +1,4 @@
-.one {
+.top {
   background-color: #49484d;
   /*dark purple grey*/
   color: #fdfdfd;
@@ -19,13 +19,13 @@ h5 {
 
 }
 
-.col-md-4 {
+.col-sm-1 {
   color: #fdfdfd;
   background-color: #be8d7e;
   text-align: center;
-  height: 150px;
+
 }
 
 h3 {
-  margin-top: 55px;
+
 }
