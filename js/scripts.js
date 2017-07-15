@@ -4,6 +4,7 @@
    var cityTime;
    var civilianTime;
    var portlandTime = d.getHours();
+   var minutes = d.getMinutes();
    if (cityName === "Tokyo, Japan") {
      cityTime = portlandTime - 8;
    } else if (cityName === "Honolulu, Hawaii") {
@@ -24,18 +25,18 @@
      cityTime = portlandTime + 10;
    }
    if (cityTime < 0) {
-     cityTime = 23 + cityTime;
+     cityTime = 24 + cityTime;
    } else if (cityTime > 23) {
      cityTime = cityTime - 24;
    }
    if (cityTime === 0 ) {
-     civilianTime = "12AM";
+     civilianTime = "12:" + minutes + " AM";
    } else if (cityTime >= 1 && cityTime <= 11) {
-     civilianTime = cityTime + "AM";
+     civilianTime = cityTime +  ":" + minutes + " AM";
    } else if (cityTime === 12){
-     civilianTime = "12PM";
+     civilianTime = "12:" + minutes + " PM";
    } else {
-     civilianTime = cityTime - 12 + "PM";
+     civilianTime = (cityTime - 12) + ":" +  minutes + " PM";
    }
    return civilianTime;
  }
@@ -47,9 +48,10 @@
 
 
 $(document).ready(function() {
-   $("h3").click(function(event) {
+   $("h5").click(function(event) {
      event.preventDefault();
-    var time = calculateTime("Tokyo, Japan");
+     var cityName = $(this).text();
+    var time = calculateTime(cityName);
     alert(time);
    });
 
