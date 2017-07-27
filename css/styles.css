@@ -7,8 +7,40 @@
   height: 200px;
 }
 
+#pdx {
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+#den {
+margin-left: 100px;
+}
+
+#ny {
+  margin-left: 100px;
+  margin-top: 100px;
+
+}
+
+#st {
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+#ath {
+  margin-left: 130px;
+  margin-top: 30px;
+}
+
+#to {
+  margin-top: 50px;
+}
+
+
+
+
 h5 {
-font-size: 11pt;
+font-size: 9pt;
 color: red;
 
 }

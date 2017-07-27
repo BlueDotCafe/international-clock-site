@@ -1,6 +1,4 @@
 # _bluedotcafe.github.io/international-clock-site_
-# _gabigavric.github.io/international-clock-site_
-# _kizxm.github.io/international-clock-site_
 # _gonehiking8.github.io/TeamWeek_
 
 #### _An interactive website that runs code to collect the current hour and minutes on a new Date object when the mouse hovers on the h5 Block Element,
